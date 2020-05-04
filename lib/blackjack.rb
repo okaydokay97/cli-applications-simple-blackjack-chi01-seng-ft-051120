@@ -4,7 +4,6 @@ def welcome
 end
 
 def deal_card(card)
-  card = rand(12)
   binding.pry
 end
 
