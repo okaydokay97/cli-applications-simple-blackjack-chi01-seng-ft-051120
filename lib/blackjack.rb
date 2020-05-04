@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets.strip
+  input = gets.strip
 end
 
 def end_game(card_total)
@@ -32,8 +32,9 @@ end
 def hit?(card_total)
   prompt_user
   get_user_input
-  if get_user_input == "s"
+  if input == "s"
   end
+end
   
 end
 
