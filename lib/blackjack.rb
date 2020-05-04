@@ -51,9 +51,13 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(card_total)
   welcome
   initial_round
-
+  hit?(card_total)
+  binding.pry
+  if card_total > 21
+  end_game(card_total)
+  end
 end
     
