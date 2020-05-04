@@ -54,7 +54,6 @@ end
 def runner
   welcome
   initial_round
-  binding.pry
   hit?(card_total)
   display_card_total(card_total)
   binding.pry
