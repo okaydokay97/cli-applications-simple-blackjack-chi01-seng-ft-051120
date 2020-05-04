@@ -6,7 +6,7 @@ end
 def deal_card(card)
   binding.pry
 end
-
+binding.pry
 def display_card_total
   # code #display_card_total here
 end
