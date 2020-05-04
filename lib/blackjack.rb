@@ -3,10 +3,10 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card(card)
-  binding.pry
+def deal_card
+  card = 
 end
-binding.pry
+
 def display_card_total
   # code #display_card_total here
 end
