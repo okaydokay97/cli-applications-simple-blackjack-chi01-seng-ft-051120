@@ -8,7 +8,8 @@ def deal_card
 end
 
 def display_card_total
-  
+  deal_card
+  card + card
 end
 
 def prompt_user
